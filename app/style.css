@@ -2,7 +2,17 @@
     width: 100%;
     margin-bottom: 5px;
 }
+.full-page {
+    height:100vh;
+    display: table;
+    width: 100%;
+}
 
 .counter {
     font-size: 600px;
+}
+.content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
