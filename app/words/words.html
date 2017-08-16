@@ -1,9 +1,25 @@
 <div class="full-page">
-
     <div class="content content-words">
         {{ sentences[step][0] }}
+        <ul class="words-ul">
+            <li ng-repeat="result in sentences[step][1] track by $index">
+                <a ng-click="removeWord($index)" ng-href="">{{($index + 1)}}</a> {{' ' + result}}
+            </li>
+        </ul>
     </div>
-
 </div>
 
-<div class="controls">A B C</div>
+<div class="controls">
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><button class="btn-xs btn-primary" ng-click="makeStep(-1)"><<</button></div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            {{step + 1}} <input type="text" class="words-input" ng-model="newWord" />
+            <button class="btn-xs btn-danger" ng-click="addWord()">+</button>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><button class="btn-xs btn-primary" ng-click="makeStep(1)">>></button></div>
+    </div>
+</div>
+
+<div class="auto-repeat">
+    <button class="btn-xs btn-default" ng-click="toggleAuto()">{{ auto ? 'X' : '0'}}</button>
+</div>
