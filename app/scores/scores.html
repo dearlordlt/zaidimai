@@ -1,19 +1,25 @@
-<div>
-    <p ng-bind="counter" class="counter"></p>
-</div>
+<div class="full-page">
+    <div class="row">
+        <p class="label-text">LAIKAS</p>
+        <div class="counter">{{counter}}</div>
+    </div>
+    <div class="row">
+        <p class="label-text">TAŠKAI</p>
+        <p class="counter">{{score}}</p>
+    </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <button class="btn btn-success">Teisingai</button>
-    </div>
-    <div class="col-md-4">
-        <div class="row">
-            <button class="full-width btn btn-success" ng-click="countdown()">Start</button>
-            <button class="full-width btn btn-warning" ng-click="stop()">Stop</button>
-            <button class="full-width btn btn-danger" ng-click="reset()">RESET</button>
+    <div class="row">
+        <div class="col-md-6">
+            <button class="full-width btn btn-success" ng-click="plusScore()">Prideti</button>
+            <button class="full-width btn btn-warning" ng-click="minusScore()">Atimti</button>
+            <button class="full-width btn btn-danger" ng-click="resetScore()">Anuluoti Taškus</button>
         </div>
-    </div>
-    <div class="col-md-4">
-        <button class="btn btn-danger">Neteisingai</button>
+        <div class="col-md-6">
+            <div class="row">
+                <button class="full-width btn btn-success" ng-click="start()">Paleisti Laiką</button>
+                <button class="full-width btn btn-warning" ng-click="stop()">Sustabdyti Laiką</button>
+                <button class="full-width btn btn-danger" ng-click="reset()">Anuluoti Laika</button>
+            </div>
+        </div>
     </div>
 </div>

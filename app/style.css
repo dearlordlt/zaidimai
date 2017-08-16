@@ -9,10 +9,21 @@
 }
 
 .counter {
-    font-size: 600px;
+    margin-top: -150px;
+    margin-bottom: 150px;
+    height: 300px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 400px;
+    /*-webkit-transform:scale(3,1);*/
 }
 .content {
     display: table-cell;
     vertical-align: middle;
+    text-align: center;
+}
+
+.label-text {
+    font-size: 40px;
     text-align: center;
 }
