@@ -1,29 +1,11 @@
-.full-width {
-    width: 100%;
-    margin-bottom: 5px;
-}
 .full-page {
     height:100vh;
     display: table;
     width: 100%;
 }
 
-.counter {
-    margin-top: -150px;
-    margin-bottom: 150px;
-    height: 300px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 400px;
-    /*-webkit-transform:scale(3,1);*/
-}
 .content {
     display: table-cell;
     vertical-align: middle;
-    text-align: center;
-}
-
-.label-text {
-    font-size: 40px;
     text-align: center;
 }
