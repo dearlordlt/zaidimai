@@ -1,0 +1,13 @@
+.content-words {
+    font-size: 7em;
+    font-weight: bolder;
+    color: black;
+}
+
+.controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
