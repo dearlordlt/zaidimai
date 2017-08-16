@@ -11,3 +11,15 @@
     width: 100%;
     text-align: center;
 }
+
+.words-ul {
+    list-style-type: none;
+    font-size: 50%;
+}
+
+.auto-repeat {
+    position: absolute;
+    width: 30px;
+    top: 0;
+    left: 0;
+}
