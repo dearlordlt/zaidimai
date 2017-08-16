@@ -11,6 +11,7 @@
             'georgeMichaelCarelessWhisper',
             'kellyFamilyAnAngel',
             'marijonasMikutaviciusTrysMilijonai',
+            'metallicaEnterSandmanSmoothJazz',
             'poliarizuotiStiklaiMedziaiBeLapu',
             'redHotChiliPeppersGiveItAway',
             'stasysPovilaitisSvieskiManVel',
@@ -20,6 +21,7 @@
 
         var songs = {};
         var songStarts = [
+            15,
             15,
             15,
             15,
