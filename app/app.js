@@ -1,5 +1,7 @@
 (function () {
 
+    //https://www.npmjs.com/package/angular-http-server
+
     'use strict';
     angular.module('app', [
         'app.home',
