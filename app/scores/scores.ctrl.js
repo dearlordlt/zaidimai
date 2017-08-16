@@ -3,7 +3,7 @@
     'use strict';
     angular.module('app.scores', []).controller('scoresCtrl', ['$scope', '$timeout', function ($scope, $timeout) {
 
-        $scope.fullTime = 5;
+        $scope.fullTime = 60;
         $scope.counter = $scope.fullTime;
         $scope.score = 0;
         var stopped;
@@ -34,7 +34,7 @@
         };
 
         $scope.minusScore = function () {
-            $scope.score--;
+
         };
         $scope.resetScore = function () {
             $scope.score = 0;

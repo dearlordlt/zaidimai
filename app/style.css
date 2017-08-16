@@ -9,14 +9,24 @@
 }
 
 .counter {
-    margin-top: -150px;
-    margin-bottom: 150px;
+    margin-top: -180px;
+    margin-bottom: 200px;
+    height: 350px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 500px;
+    /*-webkit-transform:scale(3,1);*/
+}
+
+.scores {
+    margin-top: -100px;
+    margin-bottom: 100px;
     height: 300px;
     text-align: center;
     vertical-align: middle;
-    font-size: 400px;
-    /*-webkit-transform:scale(3,1);*/
+    font-size: 300px;
 }
+
 .content {
     display: table-cell;
     vertical-align: middle;
