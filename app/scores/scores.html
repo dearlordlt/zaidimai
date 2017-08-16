@@ -9,18 +9,17 @@
     </div>
 
     <div class="row">
-        <div class="col-md-4">
-            <button class="full-width btn btn-success" ng-click="plusScore()">Teisingai</button>
+        <div class="col-md-6">
+            <button class="full-width btn btn-success" ng-click="plusScore()">Prideti</button>
+            <button class="full-width btn btn-warning" ng-click="minusScore()">Atimti</button>
+            <button class="full-width btn btn-danger" ng-click="resetScore()">Anuluoti Taškus</button>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-6">
             <div class="row">
-                <button class="full-width btn btn-success" ng-click="countdown()">Start</button>
-                <button class="full-width btn btn-warning" ng-click="stop()">Stop</button>
-                <button class="full-width btn btn-danger" ng-click="reset()">RESET</button>
+                <button class="full-width btn btn-success" ng-click="start()">Paleisti Laiką</button>
+                <button class="full-width btn btn-warning" ng-click="stop()">Sustabdyti Laiką</button>
+                <button class="full-width btn btn-danger" ng-click="reset()">Anuluoti Laika</button>
             </div>
-        </div>
-        <div class="col-md-4">
-            <button class="full-width btn btn-danger" ng-click="minusScore()">Neteisingai</button>
         </div>
     </div>
 </div>
