@@ -1,39 +1,11 @@
-.full-width {
-    width: 100%;
-    margin-bottom: 5px;
-}
 .full-page {
     height:100vh;
     display: table;
     width: 100%;
 }
 
-.counter {
-    margin-top: -180px;
-    margin-bottom: 200px;
-    height: 350px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 500px;
-    /*-webkit-transform:scale(3,1);*/
-}
-
-.scores {
-    margin-top: -100px;
-    margin-bottom: 100px;
-    height: 300px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 300px;
-}
-
 .content {
     display: table-cell;
     vertical-align: middle;
-    text-align: center;
-}
-
-.label-text {
-    font-size: 40px;
     text-align: center;
 }

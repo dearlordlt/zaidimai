@@ -39,7 +39,5 @@
         $scope.resetScore = function () {
             $scope.score = 0;
         };
-
-
     }]);
 })();
