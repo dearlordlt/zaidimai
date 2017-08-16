@@ -1,3 +1,19 @@
-<div class="row">
+<div>
+    <p ng-bind="counter" class="counter"></p>
+</div>
 
+<div class="row">
+    <div class="col-md-4">
+        <button class="btn btn-success">Teisingai</button>
+    </div>
+    <div class="col-md-4">
+        <div class="row">
+            <button class="full-width btn btn-success" ng-click="countdown()">Start</button>
+            <button class="full-width btn btn-warning" ng-click="stop()">Stop</button>
+            <button class="full-width btn btn-danger" ng-click="reset()">RESET</button>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <button class="btn btn-danger">Neteisingai</button>
+    </div>
 </div>
