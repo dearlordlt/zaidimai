@@ -7,12 +7,16 @@
             ['Vestuvės nebūtų linksmos be ___', []],
             ['Mūsų dienos kaip ___', []],
             ['Jaunikis šį vakarą atrodo ___', []],
-            ['Muzikantai visą vakarą ___', []],
+            ['Stovi bernelis vidury lauko,___ išsitraukęs kepurėlėlę smauko!', []],
             ['Nuo šitos šventės man jau ___', []],
-            ['Vakaras neprailgs, nes yra ___', []],
             ['Per šokius mes būtinai ___', []],
             ['Jaunoji pametė savo ___', []],
-            ['Švesiu kol ___', []]
+            ['Švesiu kol ___', []],
+            ['Muzikantai visą vakarą ___', []],
+            ['Juokiasi puodas, kad___', []],
+            ['O pagroki, armonika, man___', []],
+            ['Bebras, gandras, lašiša,___', []],
+            ['Vakaras neprailgs, nes yra ___', []],
         ];
 
         $scope.step = 0;
